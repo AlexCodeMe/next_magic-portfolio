@@ -12,10 +12,10 @@ export default function Contact() {
         fill
       />
 
-      <article className='relative w-full flex flex-col items-center justify-center space-y-8'>
+      <article className='relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8'>
         <div className='flex flex-col items-center justify-center space-y-6 w-3/4'>
           <h1 className='text-accent font-semibold text-center text-4xl capitalize'>Summon the Wizard</h1>
-          <p>Step into the circle of enchantment ... </p>
+          <p className='text-center font-light text-sm xs:text-base'>Step into the circle of enchantment ... </p>
         </div>
         <Form />
       </article>
